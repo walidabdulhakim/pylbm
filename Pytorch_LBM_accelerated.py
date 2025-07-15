@@ -2,6 +2,7 @@ from __future__ import annotations
 import torch
 import matplotlib.pyplot as plt
 
+
 def get_memory_usage():
     """Get current GPU memory usage if available."""
     if torch.cuda.is_available():
